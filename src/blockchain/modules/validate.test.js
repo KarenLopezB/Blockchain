@@ -3,6 +3,7 @@ import validate from "./validate";
 
 describe('validate()', () => {
     let blockchain;
+    let blockchainB;
 
     beforeEach(() => {
         blockchain = new Blockchain();
